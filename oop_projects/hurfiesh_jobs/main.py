@@ -1,5 +1,5 @@
-from oop_projects.hurfiesh_jobs.jobs import Job
-from oop_projects.hurfiesh_jobs.professional import Professional
+from oop_projects.hurfiesh_jobs.src.classes.jobs import Job
+from oop_projects.hurfiesh_jobs.src.classes.professional import Professional
 
 
 def add_professional():
@@ -34,7 +34,7 @@ def add_professional():
             continue
         break
     new_professional = Professional(name, phone, profession)
-    new_professional.add_professional()
+    new_professional.add_a_professional()
     return new_professional.to_dict()
 
 
@@ -42,7 +42,9 @@ def main():
     while True:
         print("Welcome to Horfiesh Jobs App!")
         option = input("Please choose an option:\n1. Add a new job\n"
-                       "2. Remove a job\n3. Add a professional\n4. Remove a professional\n5. Exit\n")
+                       "2. Remove a job\n3. Add a professional\n"
+                       "4. Remove a professional\n5. Show jobs\n6. Show professionals\n"
+                       "7. Exit\n")
         if option == "1":
             while True:
                 job_title = input("Enter job title: ").lower()
@@ -83,7 +85,6 @@ def main():
             add_professional()
         elif option == "4":
             while True:
-
                 name = input("Enter professional name: ").lower()
                 if not name:
                     print("Name cannot be empty.")
@@ -94,8 +95,13 @@ def main():
                 break
             professional_to_remove = Professional(name, None, None)
             professional_to_remove.remove_professional(name)
-
         elif option == "5":
+            Job.show_jobs()
+            continue
+        elif option == "6":
+            Professional.show_professionals()
+            continue
+        elif option == "7":
             print("Thank you for using Horfiesh Jobs App!")
             break
         else:
