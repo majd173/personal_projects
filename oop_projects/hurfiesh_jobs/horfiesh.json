@@ -1,19 +1,24 @@
 {
  "jobs": [
   {
-   "title": "plumbing"
+   "title": "plumbing",
+   "professional": {
+    "name": "majd",
+    "phone": "0527221870",
+    "profession": "plumber"
+   }
   },
   {
-   "title": "electrical"
+   "title": "wood",
+   "professional": null
   },
   {
-   "title": ""
-  },
-  {
-   "title": ""
-  },
-  {
-   "title": "jjjj"
+   "title": "building",
+   "professional": {
+    "name": "salah",
+    "phone": "555",
+    "profession": "builder"
+   }
   }
  ],
  "professionals": [
@@ -23,19 +28,9 @@
    "profession": "plumber"
   },
   {
-   "name": "ehab",
-   "phone": "055555",
-   "profession": "electrician"
-  },
-  {
-   "name": "ll",
-   "phone": "kkk",
-   "profession": "kkk"
-  },
-  {
-   "name": "jjj",
-   "phone": "lll",
-   "profession": "kkk"
+   "name": "salah",
+   "phone": "555",
+   "profession": "builder"
   }
  ]
 }
