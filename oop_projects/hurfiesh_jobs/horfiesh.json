@@ -2,35 +2,14 @@
  "jobs": [
   {
    "title": "plumbing",
-   "professional": {
-    "name": "majd",
-    "phone": "0527221870",
-    "profession": "plumber"
-   }
-  },
-  {
-   "title": "wood",
    "professional": null
-  },
-  {
-   "title": "building",
-   "professional": {
-    "name": "salah",
-    "phone": "555",
-    "profession": "builder"
-   }
   }
  ],
  "professionals": [
   {
-   "name": "majd",
-   "phone": "0527221870",
-   "profession": "plumber"
-  },
-  {
-   "name": "salah",
-   "phone": "555",
-   "profession": "builder"
+   "name": "kamal",
+   "phone": 506247032,
+   "profession": "aaa"
   }
  ]
 }

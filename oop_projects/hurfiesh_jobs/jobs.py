@@ -42,18 +42,25 @@ class Job:
             # If the file doesn't exist, initialize it with an empty structure.
             data = {'jobs': [],
                     'professionals': []}
+            return
         except json.JSONDecodeError:
             logging.error(f"Error in reading file {self._config_file_path}.")
             # If there's an error in reading the file, also initialize it.
             data = {'jobs': [],
                     'professionals': []}
+            return
+        job_found = False
         for job in data['jobs']:
             if job['title'] == title:
                 data['jobs'].remove(job)
+                job_found = True
                 logging.info(f"Job: {title} was removed successfully.")
                 break
-            else:
-                logging.error(f"Job: {title} not found.")
+        if job_found:
+            with open(self._config_file_path, 'w') as file:
+                json.dump(data, file)
+        else:
+            logging.error(f"Job: {title} not found.")
 
     def add_job(self, professional: Professional):
         # Step 1: Open and load the current data from the JSON file.
@@ -66,11 +73,13 @@ class Job:
             # If the file doesn't exist, initialize it with an empty structure.
             data = {'jobs': [],
                     'professionals': []}
+            return
         except json.JSONDecodeError:
             logging.error(f"Error in reading file {self._config_file_path}.")
             # If there's an error in reading the file, also initialize it.
             data = {'jobs': [],
                     'professionals': []}
+            return
         if professional is not None:
             professional_name = professional['name']
         else:

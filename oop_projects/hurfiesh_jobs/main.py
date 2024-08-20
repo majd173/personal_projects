@@ -3,9 +3,36 @@ from oop_projects.hurfiesh_jobs.professional import Professional
 
 
 def add_professional():
-    name = input("Enter professional name: ")
-    phone = input("Enter professional phone: ")
-    profession = input("Enter professional profession: ")
+    while True:
+        name = input("Enter professional name: ").lower()
+        if not name:
+            print("Name cannot be empty.")
+            continue
+        if not name.isalpha():
+            print("Name must be alphabetic.")
+            continue
+        break
+    while True:
+        phone_input = input("Enter professional phone: ")
+        # Check if the phone number is a digit and has the correct length
+        if not phone_input.isdigit():
+            print("Phone number must be a number.")
+            continue
+        phone_length = len(phone_input)
+        if phone_length < 9 or phone_length > 11:
+            print("Phone number must be 9-11 digits.")
+            continue
+        phone = int(phone_input)
+        break
+    while True:
+        profession = input("Enter professional profession: ").lower()
+        if not profession:
+            print("Profession cannot be empty.")
+            continue
+        if not profession.isalpha():
+            print("Profession must be alphabetic.")
+            continue
+        break
     new_professional = Professional(name, phone, profession)
     new_professional.add_professional()
     return new_professional.to_dict()
@@ -14,9 +41,18 @@ def add_professional():
 def main():
     while True:
         print("Welcome to Horfiesh Jobs App!")
-        option = input("Please choose an option:\n1. Add a new job\n2. Remove a job\n3. Exit\n")
+        option = input("Please choose an option:\n1. Add a new job\n"
+                       "2. Remove a job\n3. Add a professional\n4. Remove a professional\n5. Exit\n")
         if option == "1":
-            job_title = input("Enter job title: ")
+            while True:
+                job_title = input("Enter job title: ").lower()
+                if not job_title:
+                    print("Job title cannot be empty.")
+                    continue
+                if not job_title.isalpha():
+                    print("Job title must be alphabetic.")
+                    continue
+                break
             print("Would you like to add a new profession? (yes/no)")
             answer = input("Please insert your answer: ")
             professional_data = None
@@ -32,11 +68,34 @@ def main():
             else:
                 print("Please insert a correct option.")
         elif option == "2":
-            job_title = input("Enter job title: ")
+            while True:
+                job_title = input("Enter job title: ").lower()
+                if not job_title:
+                    print("Job title cannot be empty.")
+                    continue
+                if not job_title.isalpha():
+                    print("Job title must be alphabetic.")
+                    continue
+                break
             job_to_remove = Job(job_title)
             job_to_remove.remove_job(job_title)
-            print(f"Job: {job_title} was removed successfully.")
         elif option == "3":
+            add_professional()
+        elif option == "4":
+            while True:
+
+                name = input("Enter professional name: ").lower()
+                if not name:
+                    print("Name cannot be empty.")
+                    continue
+                if not name.isalpha():
+                    print("Name must be alphabetic.")
+                    continue
+                break
+            professional_to_remove = Professional(name, None, None)
+            professional_to_remove.remove_professional(name)
+
+        elif option == "5":
             print("Thank you for using Horfiesh Jobs App!")
             break
         else:

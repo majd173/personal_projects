@@ -66,6 +66,35 @@ class Professional:
             "profession": self._profession
         }
 
+    def remove_professional(self, name):
+        try:
+            with open(self._config_file_path, 'r') as file:
+                data = json.load(file)
+        except FileNotFoundError:
+            logging.error(f"File {self._config_file_path} not found.")
+            # If the file doesn't exist, initialize it with an empty structure.
+            data = {'jobs': [],
+                    'professionals': []}
+            return
+        except json.JSONDecodeError:
+            logging.error(f"Error in reading file {self._config_file_path}.")
+            # If there's an error in reading the file, also initialize it.
+            data = {'jobs': [],
+                    'professionals': []}
+            return
+        professional_found = False
+        for professional in data['professionals']:
+            if professional['name'] == name:
+                data['professionals'].remove(professional)
+                professional_found = True
+                logging.info(f"Professional: {name} was removed successfully.")
+                break
+        if professional_found:
+            with open(self._config_file_path, 'w') as file:
+                json.dump(data, file, indent=1)
+        else:
+            logging.error(f"Professional: {name} not found.")
+
     def add_professional(self):
         # Step 1: Open and load the current data from the JSON file.
         try:
@@ -76,12 +105,13 @@ class Professional:
             # If the file doesn't exist, initialize it with an empty structure.
             data = {'jobs': [],
                     'professionals': []}
+            return
         except json.JSONDecodeError:
             logging.error(f"Error in reading file {self._config_file_path}.")
             # If there's an error in reading the file, also initialize it.
             data = {'jobs': [],
                     'professionals': []}
-
+            return
         # Step 2: Append the new professional to the 'professionals' list.
         data['professionals'].append(self.to_dict())
 
