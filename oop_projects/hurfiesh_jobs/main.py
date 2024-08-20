@@ -8,9 +8,6 @@ def add_professional():
         if not name:
             print("Name cannot be empty.")
             continue
-        if not name.isalpha():
-            print("Name must be alphabetic.")
-            continue
         break
     while True:
         phone_input = input("Enter professional phone: ")
@@ -28,9 +25,6 @@ def add_professional():
         profession = input("Enter professional profession: ").lower()
         if not profession:
             print("Profession cannot be empty.")
-            continue
-        if not profession.isalpha():
-            print("Profession must be alphabetic.")
             continue
         break
     new_professional = Professional(name, phone, profession)
@@ -50,9 +44,6 @@ def main():
                 job_title = input("Enter job title: ").lower()
                 if not job_title:
                     print("Job title cannot be empty.")
-                    continue
-                if not job_title.isalpha():
-                    print("Job title must be alphabetic.")
                     continue
                 break
             print("Would you like to add a new profession? (yes/no)")
@@ -75,9 +66,6 @@ def main():
                 if not job_title:
                     print("Job title cannot be empty.")
                     continue
-                if not job_title.isalpha():
-                    print("Job title must be alphabetic.")
-                    continue
                 break
             job_to_remove = Job(job_title)
             job_to_remove.remove_job(job_title)
@@ -88,9 +76,6 @@ def main():
                 name = input("Enter professional name: ").lower()
                 if not name:
                     print("Name cannot be empty.")
-                    continue
-                if not name.isalpha():
-                    print("Name must be alphabetic.")
                     continue
                 break
             professional_to_remove = Professional(name, None, None)

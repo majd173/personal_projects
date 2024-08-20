@@ -1,23 +1,10 @@
 {
- "jobs": [
-  {
-   "title": "asdasd",
-   "professional": null
-  },
-  {
-   "title": "asdasdasdsadsad",
-   "professional": null
-  },
-  {
-   "title": "jjjjj",
-   "professional": null
-  }
- ],
+ "jobs": [],
  "professionals": [
   {
-   "name": "asdas",
-   "phone": 527551572,
-   "profession": "asdasd"
+   "name": "majd",
+   "phone": 527221870,
+   "profession": "plumber"
   }
  ]
 }

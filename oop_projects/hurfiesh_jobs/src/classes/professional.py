@@ -1,6 +1,7 @@
 import json
 import os
 import logging
+from oop_projects.hurfiesh_jobs.src.utilities.logger_setup import LoggingSetup
 from oop_projects.hurfiesh_jobs.src.utilities.config_provider import ConfigProvider
 
 
@@ -171,6 +172,12 @@ class Professional:
             # If there's an error in reading the file, also initialize it.
             data = {'jobs': [],
                     'professionals': []}
+
+        for professional in data['professionals']:
+            if professional['name'] == self._name:
+                logging.error(f"Professional: {self._name} already exists.")
+                print(f"Professional: {self._name} already exists.")
+                return
 
         # Step 2: Append the new professional to the 'professionals' list.
         data['professionals'].append(self.to_dict())
