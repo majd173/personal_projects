@@ -1,6 +1,7 @@
 import json
 import os
 import logging
+from oop_projects.hurfiesh_jobs.src.utilities.utilities import Utilities
 from oop_projects.hurfiesh_jobs.src.utilities.logger_setup import LoggingSetup
 from oop_projects.hurfiesh_jobs.src.utilities.config_provider import ConfigProvider
 
@@ -19,7 +20,7 @@ class Professional:
         self._phone = phone
         base_dir = os.path.dirname(os.path.abspath(__file__))
         self._config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
-        self._config = ConfigProvider()
+        self._config = ConfigProvider().load_from_file(self._config_file_path)
 
     @property
     def name(self):
@@ -186,3 +187,32 @@ class Professional:
         with open(self._config_file_path, 'w') as file:
             json.dump(data, file, indent=1)
             logging.info(f"Professional: {self._name} was added successfully.")
+
+    @staticmethod
+    def return_professionals_name():
+        """
+        This method returns all the names of the professionals in the config file.
+        :return: names of the professionals: list
+        """
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+        config = ConfigProvider().load_from_file(config_file_path)
+        professionals_name = []
+        for professional in config['professionals']:
+            professionals_name.append(professional['name'])
+        return professionals_name
+
+    @staticmethod
+    def generate_random_professional():
+        """
+        This method generates a random professional.
+        :return: generated_professional: Professional
+        """
+        professional_name = Utilities.generate_random_string_only_letters(7)
+        professional_phone = Utilities.generate_random_number_by_length(10)
+        professional_profession = Utilities.generate_random_string_only_letters(7)
+        generated_professional = (Professional
+                                  (professional_name, professional_phone, professional_profession))
+        return generated_professional
+
+

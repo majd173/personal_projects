@@ -12,7 +12,7 @@ class Job:
         self._title = title
         base_dir = os.path.dirname(os.path.abspath(__file__))
         self._config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
-        self._config = ConfigProvider()
+        self._config = ConfigProvider().load_from_file(self._config_file_path)
 
     @property
     def title(self):
@@ -28,9 +28,14 @@ class Job:
             self._title = value
 
     def to_dict(self, professional: Professional):
+        if professional is None:
+            return {
+                "title": self._title,
+                "professional": None
+            }
         return {
             "title": self._title,
-            "professional": professional
+            "professional": professional.to_dict()
         }
 
     @staticmethod
@@ -105,15 +110,31 @@ class Job:
             data = {'jobs': [],
                     'professionals': []}
 
-        if professional is not None:
-            professional_name = professional['name']
-        else:
-            professional_name = None
-
         # Step 2: Append the new job to the 'jobs' list.
-        data['jobs'].append(self.to_dict(professional))
+        if professional is None:
+            data['jobs'].append(self.to_dict(None))
+        else:
+            data['jobs'].append(self.to_dict(professional))
+            data['professionals'].append(professional.to_dict())
 
         # Step 3: Write the updated data back to the JSON file.
         with open(self._config_file_path, 'w') as file:
             json.dump(data, file, indent=1)
-            logging.info(f"Job: {self._title} was added successfully includes professional: {professional_name}.")
+            if professional is None:
+                logging.info(f"Job: {self._title} was added successfully.")
+            else:
+                logging.info(f"Job: {self._title} was added successfully includes professional: {professional.name}.")
+
+    @staticmethod
+    def return_jobs_titles():
+        """
+        This method returns all the jobs titles in the config file.
+        :return: jobs_title: list
+        """
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+        config = ConfigProvider().load_from_file(config_file_path)
+        jobs_title = []
+        for job in config['jobs']:
+            jobs_title.append(job['title'])
+        return jobs_title
