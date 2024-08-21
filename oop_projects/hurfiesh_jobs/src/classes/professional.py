@@ -88,6 +88,7 @@ class Professional:
             data['professionals'].append(self.to_dict())
             with open(self._config_file_path, 'w') as file:
                 json.dump(data, file)
+                logging.info(f"Professional: {self._name} was added successfully.")
         except FileNotFoundError:
             logging.error(f"File {self._config_file_path} not found.")
         except json.JSONDecodeError:

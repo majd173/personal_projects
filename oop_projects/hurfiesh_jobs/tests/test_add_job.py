@@ -15,9 +15,6 @@ class TestAddJob(unittest.TestCase):
         """
         This method runs before each test.
         """
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        self._config_file_path = os.path.join(base_dir, '..\horfiesh.json')
-        self._config = ConfigProvider().load_from_file(self._config_file_path)
         self._remove1 = False
         self._remove2 = False
 
@@ -37,12 +34,12 @@ class TestAddJob(unittest.TestCase):
         This method tests adding a job with a professional.
         """
         self._job_title_2 = Utilities.generate_random_string_only_letters(7)
-        self._generated_professional = Professional.generate_random_professional()
+        self._professional_object = Professional.generate_random_professional()
         self._job_2 = Job(self._job_title_2)
-        self._job_2.add_job(self._generated_professional)
+        self._job_2.add_job(self._professional_object)
 
         self.assertIn(self._job_2.title, Job.return_jobs_titles())
-        self.assertIn(self._generated_professional.name, Professional.return_professionals_name())
+        self.assertIn(self._professional_object.name, Professional.return_professionals_name())
         self._remove2 = True
 
     def tearDown(self):
@@ -53,4 +50,4 @@ class TestAddJob(unittest.TestCase):
             self._job_1.remove_job(self._job_title_1)
         if self._remove2:
             self._job_2.remove_job(self._job_title_2)
-            self._generated_professional.remove_professional(self._generated_professional.name)
+            self._professional_object.remove_professional(self._professional_object.name)
