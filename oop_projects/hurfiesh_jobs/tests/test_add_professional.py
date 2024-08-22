@@ -19,15 +19,13 @@ class TestAddProfessional(unittest.TestCase):
         """
         self._professional_object = Professional.generate_random_professional()
         self._professional_object.add_professional()
-        self._professional_object.remove_professional(self._professional_object.name)
         all_professionals = self._professional_object.return_professionals_name()
-
-        self.assertNotIn(self._professional_object.name, all_professionals)
+        self.assertIn(self._professional_object.name, all_professionals)
+        self._remove = True
 
     def tearDown(self):
         """
         This method runs after each test and removes added professional if it exists.
-        :return:
         """
         if self._remove:
             self._professional_object.remove_professional(self._professional_object.name)

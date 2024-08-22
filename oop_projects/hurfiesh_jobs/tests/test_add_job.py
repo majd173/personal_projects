@@ -1,9 +1,7 @@
-import os
 import unittest
 from oop_projects.hurfiesh_jobs.src.utilities.utilities import Utilities
 from oop_projects.hurfiesh_jobs.src.classes.professional import Professional
 from oop_projects.hurfiesh_jobs.src.classes.jobs import Job
-from oop_projects.hurfiesh_jobs.src.utilities.config_provider import ConfigProvider
 
 
 class TestAddJob(unittest.TestCase):
@@ -25,7 +23,6 @@ class TestAddJob(unittest.TestCase):
         self._job_title_1 = Utilities.generate_random_string_only_letters(7)
         self._job_1 = Job(self._job_title_1)
         self._job_1.add_job(None)
-
         self.assertIn(self._job_1.title, Job.return_jobs_titles())
         self._remove1 = True
 

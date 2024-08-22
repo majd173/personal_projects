@@ -21,6 +21,8 @@ class ConfigProvider:
             logging.error(f"File {filename} not found.")
         except Exception as e:
             logging.error(f"Can not load config. {e}")
+        except json.JSONDecodeError:
+            logging.error(f"Error in reading file {filename}.")
 
     @staticmethod
     def save_file(filename, data):

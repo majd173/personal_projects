@@ -14,6 +14,7 @@ class Professional:
         phone (str): The phone number of the professional.
         profession (str): The profession of the professional.
     """
+
     def __init__(self, name, phone, profession):
         self._name = name
         self._profession = profession
@@ -85,14 +86,23 @@ class Professional:
         try:
             with open(self._config_file_path, 'r') as file:
                 data = json.load(file)
-            data['professionals'].append(self.to_dict())
-            with open(self._config_file_path, 'w') as file:
-                json.dump(data, file)
-                logging.info(f"Professional: {self._name} was added successfully.")
+
         except FileNotFoundError:
             logging.error(f"File {self._config_file_path} not found.")
+            # If the file doesn't exist, initialize it with an empty structure.
+            data = {'jobs': [],
+                    'professionals': []}
+
         except json.JSONDecodeError:
             logging.error(f"Error in reading file {self._config_file_path}.")
+            # If there's an error in reading the file, also initialize it.
+            data = {'jobs': [],
+                    'professionals': []}
+
+        data['professionals'].append(self.to_dict())
+        with open(self._config_file_path, 'w') as file:
+            json.dump(data, file)
+            logging.info(f"Professional: {self._name} was added successfully.")
 
     @staticmethod
     def show_professionals():
@@ -215,5 +225,3 @@ class Professional:
         generated_professional = (Professional
                                   (professional_name, professional_phone, professional_profession))
         return generated_professional
-
-
