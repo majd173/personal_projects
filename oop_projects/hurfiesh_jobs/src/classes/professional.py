@@ -12,13 +12,15 @@ class Professional:
     Args:
         name (str): The name of the professional.
         phone (str): The phone number of the professional.
-        profession (str): The profession of the professional.
+        services (list): The list of services offered by the professional.
     """
 
-    def __init__(self, name, phone, profession):
+    def __init__(self, name, phone, services):
         self._name = name
-        self._profession = profession
         self._phone = phone
+        self._services = services
+        if self._services:
+            self._services = [service.strip() for service in self._services.split(',')]
         base_dir = os.path.dirname(os.path.abspath(__file__))
         self._config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
         self._config = ConfigProvider().load_from_file(self._config_file_path)
@@ -29,8 +31,7 @@ class Professional:
 
     @name.setter
     def name(self, value):
-        self._name = value
-        if self._name == '':
+        if value == '':
             logging.error('Professional name cannot be empty')
             raise ValueError('Professional name cannot be empty')
         else:
@@ -42,31 +43,29 @@ class Professional:
 
     @phone.setter
     def phone(self, value):
-        self._phone = value
-        if self._phone == '':
+        if value == '':
             logging.error('Professional phone cannot be empty')
             raise ValueError('Professional phone cannot be empty')
-        elif self._phone is not int:
+        elif value is not int:
             logging.error('Professional phone must be a number')
             raise ValueError('Professional phone must be a number')
-        elif not 9 < self._phone < 11:
+        elif not 9 < value < 11:
             logging.error('Professional phone must be 9-11 digits')
             raise ValueError('Professional phone must be 9-11 digits')
         else:
             self._phone = value
 
     @property
-    def profession(self):
-        return self._profession
+    def services(self):
+        return self._services
 
-    @profession.setter
-    def profession(self, value):
-        self._profession = value
-        if self._profession == '':
-            logging.error('Professional profession cannot be empty')
-            raise ValueError('Professional profession cannot be empty')
+    @services.setter
+    def services(self, value):
+        if self._services == '':
+            logging.error('Professional services cannot be empty')
+            raise ValueError('Professional services cannot be empty')
         else:
-            self._profession = value
+            self._services = value
 
     def to_dict(self):
         """
@@ -76,7 +75,7 @@ class Professional:
         return {
             "name": self._name,
             "phone": self._phone,
-            "profession": self._profession
+            "services": self._services
         }
 
     def add_professional(self):
@@ -114,22 +113,23 @@ class Professional:
             config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
             with open(config_file_path, 'r') as file:
                 data = json.load(file)
-                if data is None:
-                    print("No professionals found.")
-                    return
-                if data['professionals'] is None:
-                    print("No professionals found.")
-                    return
-                if len(data['professionals']) > 0:
-                    for professional in data['professionals']:
-                        if professional:
-                            print(f'Professional name: {professional["name"]}')
-                else:
-                    print("No professionals found.")
         except FileNotFoundError:
             logging.error(f"File {config_file_path} not found.")
         except json.JSONDecodeError:
             logging.error(f"Error in reading file {config_file_path}.")
+
+            if data is None:
+                print("No professionals found.")
+                return
+            if data['professionals'] is None:
+                print("No professionals found.")
+                return
+            if len(data['professionals']) > 0:
+                for professional in data['professionals']:
+                    if professional:
+                        print(f'Professional name: {professional["name"]}')
+                else:
+                    print("No professionals found.")
 
     def remove_professional(self, name):
         """
@@ -166,6 +166,7 @@ class Professional:
             logging.error(f"Professional: {name} not found.")
 
     def add_a_professional(self):
+
         """
         This method adds a professional data to the config file.
         """
@@ -205,13 +206,29 @@ class Professional:
         This method returns all the names of the professionals in the config file.
         :return: names of the professionals: list
         """
-        base_dir = os.path.dirname(os.path.abspath(__file__))
-        config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
-        config = ConfigProvider().load_from_file(config_file_path)
-        professionals_name = []
-        for professional in config['professionals']:
-            professionals_name.append(professional['name'])
-        return professionals_name
+        try:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config = ConfigProvider().load_from_file(config_file_path)
+            with open(config_file_path, 'r') as file:
+                data = json.load(file)
+                if data is None:
+                    print("No professionals found.")
+                    return
+                if data['professionals'] is None:
+                    print("No professionals found.")
+                    return
+                if len(data['professionals']) > 0:
+                    for professional in data['professionals']:
+                        if professional:
+                            print(f'Professional: {professional["name"]}')
+                else:
+                    print("No professionals found.")
+        except FileNotFoundError:
+            logging.error(f"File {config} not found.")
+        except json.JSONDecodeError:
+            logging.error(f"Error in reading file {config}.")
+
 
     @staticmethod
     def generate_random_professional():
@@ -221,7 +238,7 @@ class Professional:
         """
         professional_name = Utilities.generate_random_string_only_letters(7)
         professional_phone = Utilities.generate_random_number_by_length(10)
-        professional_profession = Utilities.generate_random_string_only_letters(7)
+        professional_services = Utilities.generate_random_string_only_letters(12)
         generated_professional = (Professional
-                                  (professional_name, professional_phone, professional_profession))
+                                  (professional_name, professional_phone, professional_services))
         return generated_professional

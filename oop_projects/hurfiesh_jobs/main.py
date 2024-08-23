@@ -22,12 +22,12 @@ def add_professional():
         phone = int(phone_input)
         break
     while True:
-        profession = input("Enter professional profession: ").lower()
-        if not profession:
-            print("Profession cannot be empty.")
+        services = input("Enter professional services: ").lower()
+        if not services:
+            print("Services cannot be empty.")
             continue
         break
-    new_professional = Professional(name, phone, profession)
+    new_professional = Professional(name, phone, services)
     new_professional.add_a_professional()
     return new_professional.to_dict()
 

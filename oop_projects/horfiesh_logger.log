@@ -1,0 +1,9 @@
+2024-08-23 20:01:21,254:INFO:Job: plumbing was added successfully.:
+2024-08-23 20:03:18,581:ERROR:Can not load config. Expecting value: line 1 column 1 (char 0):
+2024-08-23 20:03:18,582:ERROR:Error in reading file C:\Users\Admin\Desktop\majd\Python_& _Automation\personal_projects\oop_projects\hurfiesh_jobs\src\classes\..\..\horfiesh.json.:
+2024-08-23 20:03:18,582:INFO:Professional: majd was added successfully.:
+2024-08-23 20:05:33,232:INFO:Professional: asdsad was added successfully.:
+2024-08-23 20:05:54,274:INFO:Professional: asdasd was added successfully.:
+2024-08-23 20:07:08,757:INFO:Professional: s was added successfully.:
+2024-08-23 20:08:38,433:INFO:Job: aaa was added successfully.:
+2024-08-23 20:08:49,749:ERROR:Professional: majd already exists.:

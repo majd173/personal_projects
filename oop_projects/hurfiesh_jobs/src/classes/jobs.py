@@ -31,11 +31,11 @@ class Job:
         if professional is None:
             return {
                 "title": self._title,
-                "professional": None
+                "professionals": None
             }
         return {
             "title": self._title,
-            "professional": professional.to_dict()
+            "professionals": [professional.to_dict()]
         }
 
     @staticmethod
@@ -43,6 +43,8 @@ class Job:
         try:
             base_dir = os.path.dirname(os.path.abspath(__file__))
             config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config = ConfigProvider().load_from_file(config_file_path)
+
             with open(config_file_path, 'r') as file:
                 data = json.load(file)
                 if data is None:
@@ -58,9 +60,9 @@ class Job:
                 else:
                     print("No jobs found.")
         except FileNotFoundError:
-            logging.error(f"File {config_file_path} not found.")
+            logging.error(f"File {config} not found.")
         except json.JSONDecodeError:
-            logging.error(f"Error in reading file {config_file_path}.")
+            logging.error(f"Error in reading file {config}.")
 
     def remove_job(self, title):
         try:

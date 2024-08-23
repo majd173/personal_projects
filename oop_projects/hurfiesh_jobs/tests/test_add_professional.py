@@ -23,12 +23,12 @@ class TestAddProfessional(unittest.TestCase):
         self.assertIn(self._professional_object.name, all_professionals)
         self._remove = True
 
-    def tearDown(self):
-        """
-        This method runs after each test and removes added professional if it exists.
-        """
-        if self._remove:
-            self._professional_object.remove_professional(self._professional_object.name)
+    # def tearDown(self):
+    #     """
+    #     This method runs after each test and removes added professional if it exists.
+    #     """
+    #     if self._remove:
+    #         self._professional_object.remove_professional(self._professional_object.name)
 
 
 if __name__ == '__main__':
