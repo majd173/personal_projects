@@ -128,6 +128,7 @@ class Professional:
                 for professional in data['professionals']:
                     if professional:
                         print(f'Professional name: {professional["name"]}')
+                        return f'Professional name: {professional["name"]}'
                 else:
                     print("No professionals found.")
 
@@ -199,6 +200,7 @@ class Professional:
         with open(self._config_file_path, 'w') as file:
             json.dump(data, file, indent=1)
             logging.info(f"Professional: {self._name} was added successfully.")
+            return f"Professional: {self._name} was added successfully."
 
     @staticmethod
     def return_professionals_name():
@@ -222,6 +224,7 @@ class Professional:
                     for professional in data['professionals']:
                         if professional:
                             print(f'Professional: {professional["name"]}')
+                            return f'Professional: {professional["name"]}'
                 else:
                     print("No professionals found.")
         except FileNotFoundError:

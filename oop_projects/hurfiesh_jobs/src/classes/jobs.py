@@ -57,6 +57,7 @@ class Job:
                     for job in data['jobs']:
                         if job:
                             print(f'Job title: {job["title"]}')
+                            return f'Job title: {job["title"]}'
                 else:
                     print("No jobs found.")
         except FileNotFoundError:
