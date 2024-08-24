@@ -1,5 +1,5 @@
 # Horfiesh Jobs
-# A project that manages Jobs and related Professionals that can be used to provide customers an easy way to find professionals by specific job title.
+# A project that manages Jobs and related Professionals that can be used to provide customers with an easy way to find professionals by specific job title.
 ## classes:
 ### 1) Jobs: manages adding and editing jobs details.
 ### 2) Professionals: manages adding and editing professionals details.
