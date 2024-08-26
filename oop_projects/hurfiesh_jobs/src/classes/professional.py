@@ -245,3 +245,35 @@ class Professional:
         generated_professional = (Professional
                                   (professional_name, professional_phone, professional_services))
         return generated_professional
+
+    @staticmethod
+    def find_professional(name):
+        try:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config = ConfigProvider().load_from_file(config_file_path)
+            with open(config_file_path, 'r') as file:
+                data = json.load(file)
+
+        except FileNotFoundError:
+            logging.error(f"File {config} not found.")
+            # If the file doesn't exist, initialize it with an empty structure.
+            data = {'jobs': [],
+                    'professionals': []}
+
+        except json.JSONDecodeError:
+            logging.error(f"Error in reading file {config}.")
+            # If there's an error in reading the file, also initialize it.
+            data = {'jobs': [],
+                    'professionals': []}
+
+        for professional in data['professionals']:
+            if professional.get('name') == name:
+                print(f"Professional: {professional['name']}")
+                return (f"Professional Name: {professional['name']}\n"
+                        f"Professional Phone: {professional['phone']}\n"
+                        f"Professional Services: {professional['services']}")
+            logging.error(f"Professional: {name} not found.")
+            return None  # Return None or an appropriate message if not found
+
+

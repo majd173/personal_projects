@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Horfiesh Jobs</title>
-     <style>
-    /* Centering the container */
+    <style>
+        /* Centering the container */
         body {
             display: flex;
             justify-content: center;
@@ -15,8 +15,8 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Centering the buttons inside the container */
-        .button-container {
+        /* Container for the content */
+        .content-container {
             text-align: center;
         }
 
@@ -46,36 +46,32 @@
             box-shadow: 0 3px #666;
             transform: translateY(2px);
         }
+
+        /* Heading styling */
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <div class="content-container">
+        <h1>Welcome to Horfiesh Jobs!</h1>
 
- <h1>Welcome to Horfiesh Jobs!</h1>
+        <!-- Button linking to the Home page -->
+        <a href="/" class="button">Home</a>
 
-    <!-- Button linking to the Home page -->
-    <a href="/" style="text-decoration: none;">
-        <button>Home</button>
-    </a>
+        <!-- Button linking to the Jobs page -->
+        <a href="/jobs" class="button">Jobs</a>
 
-    <!-- Button linking to the About page -->
-    <a href="/jobs" style="text-decoration: none;">
-        <button>Jobs</button>
-    </a>
+        <!-- Button linking to the Professionals page -->
+        <a href="/professionals" class="button">Professionals</a>
 
-    <!-- Button linking to the Contact page -->
-    <a href="/Professionals" style="text-decoration: none;">
-        <button>Professionals</button>
-    </a>
+        <!-- Button linking to the Find Job page -->
+        <a href="/find_job" class="button">Find Job</a>
 
-        <!-- Button linking to the Contact page -->
-    <a href="/find_job" style="text-decoration: none;">
-        <button>Find job</button>
-    </a>
-
-        <!-- Button linking to the Contact page -->
-    <a href="/find_professional" style="text-decoration: none;">
-        <button>Find professional</button>
-    </a>
+        <!-- Button linking to the Find Professional page -->
+        <a href="/find_professional" class="button">Find Professional</a>
+    </div>
 </body>
 </html>

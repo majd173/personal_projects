@@ -1,3 +1,353 @@
 2024-08-23 19:53:47,849:ERROR:Can not load config. Expecting value: line 1 column 1 (char 0):
 2024-08-23 19:53:47,850:ERROR:Error in reading file C:\Users\Admin\Desktop\majd\Python_& _Automation\personal_projects\oop_projects\hurfiesh_jobs\src\classes\..\..\horfiesh.json.:
 2024-08-23 19:53:47,850:INFO:Professional: WFAGgbk was added successfully.:
+2024-08-24 20:29:01,588:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-24 20:29:01,589:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-24 20:29:01,598:INFO: * Restarting with stat:
+2024-08-24 20:29:02,091:WARNING: * Debugger is active!:
+2024-08-24 20:29:02,099:INFO: * Debugger PIN: 328-521-532:
+2024-08-24 20:30:06,348:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-24 20:30:06,348:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-24 20:30:06,351:INFO: * Restarting with stat:
+2024-08-24 20:30:06,896:WARNING: * Debugger is active!:
+2024-08-24 20:30:06,899:INFO: * Debugger PIN: 328-521-532:
+2024-08-24 20:30:15,769:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-24 20:30:15,769:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-24 20:30:15,771:INFO: * Restarting with stat:
+2024-08-24 20:30:16,304:WARNING: * Debugger is active!:
+2024-08-24 20:30:16,307:INFO: * Debugger PIN: 328-521-532:
+2024-08-24 20:30:36,873:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-24 20:30:36,873:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-24 20:30:36,875:INFO: * Restarting with stat:
+2024-08-24 20:30:37,305:WARNING: * Debugger is active!:
+2024-08-24 20:30:37,308:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:04:51,420:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:04:51,420:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:04:51,421:INFO: * Restarting with stat:
+2024-08-26 13:04:51,801:WARNING: * Debugger is active!:
+2024-08-26 13:04:51,804:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:05:44,054:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:05:44,054:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:05:44,054:INFO: * Restarting with stat:
+2024-08-26 13:05:44,361:WARNING: * Debugger is active!:
+2024-08-26 13:05:44,363:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:08:39,933:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:08:39,933:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:08:39,934:INFO: * Restarting with stat:
+2024-08-26 13:08:40,257:WARNING: * Debugger is active!:
+2024-08-26 13:08:40,259:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:08:45,999:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:08:45,999:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:08:46,000:INFO: * Restarting with stat:
+2024-08-26 13:08:46,299:WARNING: * Debugger is active!:
+2024-08-26 13:08:46,300:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:08:57,681:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:08:57,681:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:08:57,682:INFO: * Restarting with stat:
+2024-08-26 13:08:58,019:WARNING: * Debugger is active!:
+2024-08-26 13:08:58,020:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:10:12,914:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:10:12,914:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:10:12,916:INFO: * Restarting with stat:
+2024-08-26 13:10:13,197:WARNING: * Debugger is active!:
+2024-08-26 13:10:13,199:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:10:54,486:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:10:54,486:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:10:54,487:INFO: * Restarting with stat:
+2024-08-26 13:10:54,829:WARNING: * Debugger is active!:
+2024-08-26 13:10:54,830:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:11:09,074:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:11:09,074:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:11:09,075:INFO: * Restarting with stat:
+2024-08-26 13:11:09,377:WARNING: * Debugger is active!:
+2024-08-26 13:11:09,379:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:11:18,726:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:11:18,726:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:11:18,728:INFO: * Restarting with stat:
+2024-08-26 13:11:19,033:WARNING: * Debugger is active!:
+2024-08-26 13:11:19,034:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:11:58,585:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:11:58,585:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:11:58,587:INFO: * Restarting with stat:
+2024-08-26 13:11:58,909:WARNING: * Debugger is active!:
+2024-08-26 13:11:58,912:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:12:18,932:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:12:18,932:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:12:18,933:INFO: * Restarting with stat:
+2024-08-26 13:12:19,235:WARNING: * Debugger is active!:
+2024-08-26 13:12:19,236:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:12:22,075:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:12:22,075:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:12:22,077:INFO: * Restarting with stat:
+2024-08-26 13:12:22,390:WARNING: * Debugger is active!:
+2024-08-26 13:12:22,393:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:12:24,944:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:12:24,945:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:12:24,946:INFO: * Restarting with stat:
+2024-08-26 13:12:25,252:WARNING: * Debugger is active!:
+2024-08-26 13:12:25,254:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:12:42,933:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:12:42,933:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:12:42,934:INFO: * Restarting with stat:
+2024-08-26 13:12:43,249:WARNING: * Debugger is active!:
+2024-08-26 13:12:43,251:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:13:49,688:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:13:49,688:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:13:49,690:INFO: * Restarting with stat:
+2024-08-26 13:13:49,989:WARNING: * Debugger is active!:
+2024-08-26 13:13:49,991:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:15:03,873:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:15:03,874:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:15:03,874:INFO: * Restarting with stat:
+2024-08-26 13:15:04,180:WARNING: * Debugger is active!:
+2024-08-26 13:15:04,181:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:15:08,431:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:15:08,431:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:15:08,434:INFO: * Restarting with stat:
+2024-08-26 13:15:08,756:WARNING: * Debugger is active!:
+2024-08-26 13:15:08,758:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:15:11,754:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:15:11,754:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:15:11,755:INFO: * Restarting with stat:
+2024-08-26 13:15:12,114:WARNING: * Debugger is active!:
+2024-08-26 13:15:12,116:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:15:14,626:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:15:14,626:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:15:14,628:INFO: * Restarting with stat:
+2024-08-26 13:15:14,975:WARNING: * Debugger is active!:
+2024-08-26 13:15:14,977:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:15:20,947:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000:
+2024-08-26 13:15:20,947:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:15:20,948:INFO: * Restarting with stat:
+2024-08-26 13:15:21,260:WARNING: * Debugger is active!:
+2024-08-26 13:15:21,261:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:15:45,339:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:15:45,339:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:15:45,344:INFO: * Restarting with stat:
+2024-08-26 13:15:45,652:WARNING: * Debugger is active!:
+2024-08-26 13:15:45,665:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:16:01,201:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:16:01,201:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:16:01,203:INFO: * Restarting with stat:
+2024-08-26 13:16:01,489:WARNING: * Debugger is active!:
+2024-08-26 13:16:01,491:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:16:21,865:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:16:21,865:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:16:21,865:INFO: * Restarting with stat:
+2024-08-26 13:16:22,146:WARNING: * Debugger is active!:
+2024-08-26 13:16:22,146:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:16:32,818:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:16:32,818:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:16:32,819:INFO: * Restarting with stat:
+2024-08-26 13:16:33,127:WARNING: * Debugger is active!:
+2024-08-26 13:16:33,129:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:16:43,504:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:16:43,504:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:16:43,505:INFO: * Restarting with stat:
+2024-08-26 13:16:43,800:WARNING: * Debugger is active!:
+2024-08-26 13:16:43,802:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:16:49,888:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\flask\\app.py', reloading:
+2024-08-26 13:16:49,916:INFO: * Restarting with stat:
+2024-08-26 13:16:50,203:WARNING: * Debugger is active!:
+2024-08-26 13:16:50,205:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:17:02,308:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:17:02,310:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:17:02,311:INFO: * Restarting with stat:
+2024-08-26 13:17:02,605:WARNING: * Debugger is active!:
+2024-08-26 13:17:02,606:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:17:06,160:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:17:06,160:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:17:06,161:INFO: * Restarting with stat:
+2024-08-26 13:17:06,464:WARNING: * Debugger is active!:
+2024-08-26 13:17:06,466:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:17:51,946:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001:
+2024-08-26 13:17:51,946:INFO:[33mPress CTRL+C to quit[0m:
+2024-08-26 13:17:51,949:INFO: * Restarting with stat:
+2024-08-26 13:17:52,246:WARNING: * Debugger is active!:
+2024-08-26 13:17:52,248:INFO: * Debugger PIN: 328-521-532:
+2024-08-26 13:21:40,361:INFO:127.0.0.1 - - [26/Aug/2024 13:21:40] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:21:45,374:ERROR:Professional: asdasd not found.:
+2024-08-26 13:21:45,374:ERROR:Professional: asdasd not found.:
+2024-08-26 13:21:45,375:INFO:127.0.0.1 - - [26/Aug/2024 13:21:45] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:21:54,620:ERROR:Professional:  not found.:
+2024-08-26 13:21:54,620:ERROR:Professional:  not found.:
+2024-08-26 13:21:54,620:ERROR:Professional:  not found.:
+2024-08-26 13:21:54,620:ERROR:Professional:  not found.:
+2024-08-26 13:21:54,621:INFO:127.0.0.1 - - [26/Aug/2024 13:21:54] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:21:55,647:ERROR:Professional:  not found.:
+2024-08-26 13:21:55,647:ERROR:Professional:  not found.:
+2024-08-26 13:21:55,647:ERROR:Professional:  not found.:
+2024-08-26 13:21:55,647:ERROR:Professional:  not found.:
+2024-08-26 13:21:55,648:INFO:127.0.0.1 - - [26/Aug/2024 13:21:55] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:21:58,563:INFO:127.0.0.1 - - [26/Aug/2024 13:21:58] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:22:00,207:INFO:127.0.0.1 - - [26/Aug/2024 13:22:00] "GET /jobs HTTP/1.1" 200 -:
+2024-08-26 13:22:02,311:INFO:127.0.0.1 - - [26/Aug/2024 13:22:02] "GET /professionals HTTP/1.1" 200 -:
+2024-08-26 13:22:04,558:INFO:127.0.0.1 - - [26/Aug/2024 13:22:04] "GET /find_job HTTP/1.1" 200 -:
+2024-08-26 13:22:06,791:INFO:127.0.0.1 - - [26/Aug/2024 13:22:06] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:35:32,996:INFO:127.0.0.1 - - [26/Aug/2024 13:35:32] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:35:42,837:ERROR:Professional: ww not found.:
+2024-08-26 13:35:42,837:ERROR:Professional: ww not found.:
+2024-08-26 13:35:42,837:ERROR:Professional: ww not found.:
+2024-08-26 13:35:42,838:ERROR:Professional: ww not found.:
+2024-08-26 13:35:42,838:INFO:127.0.0.1 - - [26/Aug/2024 13:35:42] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:36:04,395:INFO:127.0.0.1 - - [26/Aug/2024 13:36:04] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:37:10,944:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\professional.py', reloading:
+2024-08-26 13:37:14,301:INFO:127.0.0.1 - - [26/Aug/2024 13:37:14] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:39:03,996:INFO:127.0.0.1 - - [26/Aug/2024 13:39:03] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:39:08,779:INFO:127.0.0.1 - - [26/Aug/2024 13:39:08] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:39:16,779:ERROR:Professional: asd not found.:
+2024-08-26 13:39:16,779:ERROR:Professional: asd not found.:
+2024-08-26 13:39:16,779:ERROR:Professional: asd not found.:
+2024-08-26 13:39:16,780:ERROR:Professional: asd not found.:
+2024-08-26 13:39:16,780:INFO:127.0.0.1 - - [26/Aug/2024 13:39:16] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:39:39,316:INFO:127.0.0.1 - - [26/Aug/2024 13:39:39] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:41:35,400:INFO:127.0.0.1 - - [26/Aug/2024 13:41:35] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:41:37,195:INFO:127.0.0.1 - - [26/Aug/2024 13:41:37] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:41:40,812:INFO:127.0.0.1 - - [26/Aug/2024 13:41:40] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:42:05,076:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\flask\\app.py', reloading:
+2024-08-26 13:42:59,030:INFO:127.0.0.1 - - [26/Aug/2024 13:42:59] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:43:01,171:ERROR:Professional: asd not found.:
+2024-08-26 13:43:01,172:INFO:127.0.0.1 - - [26/Aug/2024 13:43:01] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:43:03,400:INFO:127.0.0.1 - - [26/Aug/2024 13:43:03] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:19,230:INFO:127.0.0.1 - - [26/Aug/2024 13:45:19] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:21,237:ERROR:Professional: asdsad not found.:
+2024-08-26 13:45:21,238:INFO:127.0.0.1 - - [26/Aug/2024 13:45:21] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:22,693:INFO:127.0.0.1 - - [26/Aug/2024 13:45:22] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:23,657:INFO:127.0.0.1 - - [26/Aug/2024 13:45:23] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:26,466:INFO:127.0.0.1 - - [26/Aug/2024 13:45:26] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:52,451:INFO:127.0.0.1 - - [26/Aug/2024 13:45:52] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:45:54,044:INFO:127.0.0.1 - - [26/Aug/2024 13:45:54] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:55,105:ERROR:Professional: None not found.:
+2024-08-26 13:45:55,106:INFO:127.0.0.1 - - [26/Aug/2024 13:45:55] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:45:57,629:INFO:127.0.0.1 - - [26/Aug/2024 13:45:57] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:46:01,098:INFO:127.0.0.1 - - [26/Aug/2024 13:46:01] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:47:13,217:INFO:127.0.0.1 - - [26/Aug/2024 13:47:13] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:47:15,393:INFO:127.0.0.1 - - [26/Aug/2024 13:47:15] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:47:16,410:INFO:127.0.0.1 - - [26/Aug/2024 13:47:16] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:47:17,234:INFO:127.0.0.1 - - [26/Aug/2024 13:47:17] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:47:18,769:INFO:127.0.0.1 - - [26/Aug/2024 13:47:18] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:47:49,129:INFO:127.0.0.1 - - [26/Aug/2024 13:47:49] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:47:54,429:INFO:127.0.0.1 - - [26/Aug/2024 13:47:54] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:47:55,195:INFO:127.0.0.1 - - [26/Aug/2024 13:47:55] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:49:13,648:INFO:127.0.0.1 - - [26/Aug/2024 13:49:13] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:50:12,575:INFO:127.0.0.1 - - [26/Aug/2024 13:50:12] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:50:13,110:INFO:127.0.0.1 - - [26/Aug/2024 13:50:13] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:50:29,348:INFO:127.0.0.1 - - [26/Aug/2024 13:50:29] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:50:39,357:INFO:127.0.0.1 - - [26/Aug/2024 13:50:39] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:50:40,115:INFO:127.0.0.1 - - [26/Aug/2024 13:50:40] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:50:41,039:INFO:127.0.0.1 - - [26/Aug/2024 13:50:41] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:50:42,021:INFO:127.0.0.1 - - [26/Aug/2024 13:50:42] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:02,662:INFO:127.0.0.1 - - [26/Aug/2024 13:52:02] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:03,473:INFO:127.0.0.1 - - [26/Aug/2024 13:52:03] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:04,497:INFO:127.0.0.1 - - [26/Aug/2024 13:52:04] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:52:05,038:INFO:127.0.0.1 - - [26/Aug/2024 13:52:05] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:38,004:INFO:127.0.0.1 - - [26/Aug/2024 13:52:38] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:46,926:INFO:127.0.0.1 - - [26/Aug/2024 13:52:46] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:47,859:INFO:127.0.0.1 - - [26/Aug/2024 13:52:47] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:48,054:INFO:127.0.0.1 - - [26/Aug/2024 13:52:48] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:48,697:INFO:127.0.0.1 - - [26/Aug/2024 13:52:48] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:52:49,185:INFO:127.0.0.1 - - [26/Aug/2024 13:52:49] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:52:51,606:INFO:127.0.0.1 - - [26/Aug/2024 13:52:51] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:52:52,154:INFO:127.0.0.1 - - [26/Aug/2024 13:52:52] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:53:04,159:INFO:127.0.0.1 - - [26/Aug/2024 13:53:04] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:53:04,566:INFO:127.0.0.1 - - [26/Aug/2024 13:53:04] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:53:05,414:INFO:127.0.0.1 - - [26/Aug/2024 13:53:05] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:53:05,896:INFO:127.0.0.1 - - [26/Aug/2024 13:53:05] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:53:11,869:INFO:127.0.0.1 - - [26/Aug/2024 13:53:11] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:54:55,603:INFO:127.0.0.1 - - [26/Aug/2024 13:54:55] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:00,468:INFO:127.0.0.1 - - [26/Aug/2024 13:55:00] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:36,705:INFO:127.0.0.1 - - [26/Aug/2024 13:55:36] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:37,333:INFO:127.0.0.1 - - [26/Aug/2024 13:55:37] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:37,559:INFO:127.0.0.1 - - [26/Aug/2024 13:55:37] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:38,637:INFO:127.0.0.1 - - [26/Aug/2024 13:55:38] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:39,666:INFO:127.0.0.1 - - [26/Aug/2024 13:55:39] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:55:40,196:INFO:127.0.0.1 - - [26/Aug/2024 13:55:40] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:41,220:ERROR:Professional: None not found.:
+2024-08-26 13:55:41,220:INFO:127.0.0.1 - - [26/Aug/2024 13:55:41] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:55:45,206:INFO:127.0.0.1 - - [26/Aug/2024 13:55:45] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:56:04,049:INFO:127.0.0.1 - - [26/Aug/2024 13:56:04] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:56:06,879:INFO:127.0.0.1 - - [26/Aug/2024 13:56:06] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:56:30,187:INFO:127.0.0.1 - - [26/Aug/2024 13:56:30] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:57:04,248:INFO:127.0.0.1 - - [26/Aug/2024 13:57:04] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:57:43,171:INFO:127.0.0.1 - - [26/Aug/2024 13:57:43] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:57:44,722:INFO:127.0.0.1 - - [26/Aug/2024 13:57:44] "GET / HTTP/1.1" 200 -:
+2024-08-26 13:57:45,295:INFO:127.0.0.1 - - [26/Aug/2024 13:57:45] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:58:22,320:INFO:127.0.0.1 - - [26/Aug/2024 13:58:22] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:59:07,459:INFO:127.0.0.1 - - [26/Aug/2024 13:59:07] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:59:11,552:INFO:127.0.0.1 - - [26/Aug/2024 13:59:11] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:59:14,486:ERROR:Professional: asdasdsad not found.:
+2024-08-26 13:59:14,487:INFO:127.0.0.1 - - [26/Aug/2024 13:59:14] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:59:18,566:INFO:127.0.0.1 - - [26/Aug/2024 13:59:18] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 13:59:31,143:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\professional.py', reloading:
+2024-08-26 13:59:32,410:INFO:127.0.0.1 - - [26/Aug/2024 13:59:32] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:00:34,690:INFO:127.0.0.1 - - [26/Aug/2024 14:00:34] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:00:36,370:INFO:127.0.0.1 - - [26/Aug/2024 14:00:36] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:01:31,015:INFO:127.0.0.1 - - [26/Aug/2024 14:01:31] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:02:08,895:INFO:127.0.0.1 - - [26/Aug/2024 14:02:08] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:02:54,375:INFO:127.0.0.1 - - [26/Aug/2024 14:02:54] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:03:04,757:INFO:127.0.0.1 - - [26/Aug/2024 14:03:04] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:03:31,616:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\professional.py', reloading:
+2024-08-26 14:03:35,319:INFO:127.0.0.1 - - [26/Aug/2024 14:03:35] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:04:30,121:INFO:127.0.0.1 - - [26/Aug/2024 14:04:30] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:04:31,928:INFO:127.0.0.1 - - [26/Aug/2024 14:04:31] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:04:40,505:INFO:127.0.0.1 - - [26/Aug/2024 14:04:40] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:04:41,211:INFO:127.0.0.1 - - [26/Aug/2024 14:04:41] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:04:45,387:INFO:127.0.0.1 - - [26/Aug/2024 14:04:45] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:05:24,881:INFO:127.0.0.1 - - [26/Aug/2024 14:05:24] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:05:25,889:INFO:127.0.0.1 - - [26/Aug/2024 14:05:25] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:05:27,633:INFO:127.0.0.1 - - [26/Aug/2024 14:05:27] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:06:03,942:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\professional.py', reloading:
+2024-08-26 14:06:04,539:INFO:127.0.0.1 - - [26/Aug/2024 14:06:04] "[35m[1mPOST /find_professional HTTP/1.1[0m" 500 -:
+2024-08-26 14:06:04,599:INFO:127.0.0.1 - - [26/Aug/2024 14:06:04] "GET /find_professional?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -:
+2024-08-26 14:06:04,613:INFO:127.0.0.1 - - [26/Aug/2024 14:06:04] "GET /find_professional?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -:
+2024-08-26 14:06:04,623:INFO:127.0.0.1 - - [26/Aug/2024 14:06:04] "GET /find_professional?__debugger__=yes&cmd=resource&f=console.png&s=zLYPBKnRITaynjKVnJ1R HTTP/1.1" 200 -:
+2024-08-26 14:06:04,657:INFO:127.0.0.1 - - [26/Aug/2024 14:06:04] "GET /find_professional?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -:
+2024-08-26 14:06:38,764:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\professional.py', reloading:
+2024-08-26 14:06:39,173:INFO:127.0.0.1 - - [26/Aug/2024 14:06:39] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:06:52,277:INFO:127.0.0.1 - - [26/Aug/2024 14:06:52] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:07:51,380:INFO:127.0.0.1 - - [26/Aug/2024 14:07:51] "GET / HTTP/1.1" 200 -:
+2024-08-26 14:07:52,186:INFO:127.0.0.1 - - [26/Aug/2024 14:07:52] "GET /find_job HTTP/1.1" 200 -:
+2024-08-26 14:07:55,357:INFO:127.0.0.1 - - [26/Aug/2024 14:07:55] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:07:57,398:INFO:127.0.0.1 - - [26/Aug/2024 14:07:57] "GET / HTTP/1.1" 200 -:
+2024-08-26 14:07:58,607:INFO:127.0.0.1 - - [26/Aug/2024 14:07:58] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:08:00,045:INFO:127.0.0.1 - - [26/Aug/2024 14:08:00] "GET / HTTP/1.1" 200 -:
+2024-08-26 14:08:00,933:INFO:127.0.0.1 - - [26/Aug/2024 14:08:00] "GET /professionals HTTP/1.1" 200 -:
+2024-08-26 14:08:03,051:INFO:127.0.0.1 - - [26/Aug/2024 14:08:03] "GET /jobs HTTP/1.1" 200 -:
+2024-08-26 14:08:05,725:INFO:127.0.0.1 - - [26/Aug/2024 14:08:05] "GET / HTTP/1.1" 200 -:
+2024-08-26 14:08:06,788:INFO:127.0.0.1 - - [26/Aug/2024 14:08:06] "GET / HTTP/1.1" 200 -:
+2024-08-26 14:08:08,920:INFO:127.0.0.1 - - [26/Aug/2024 14:08:08] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:08:10,670:INFO:127.0.0.1 - - [26/Aug/2024 14:08:10] "GET / HTTP/1.1" 200 -:
+2024-08-26 14:08:20,143:INFO:127.0.0.1 - - [26/Aug/2024 14:08:20] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-26 14:08:22,647:INFO:127.0.0.1 - - [26/Aug/2024 14:08:22] "GET /find_job HTTP/1.1" 200 -:
