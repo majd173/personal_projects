@@ -351,3 +351,86 @@
 2024-08-26 14:08:10,670:INFO:127.0.0.1 - - [26/Aug/2024 14:08:10] "GET / HTTP/1.1" 200 -:
 2024-08-26 14:08:20,143:INFO:127.0.0.1 - - [26/Aug/2024 14:08:20] "GET /find_professional HTTP/1.1" 200 -:
 2024-08-26 14:08:22,647:INFO:127.0.0.1 - - [26/Aug/2024 14:08:22] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:36:57,830:INFO:127.0.0.1 - - [31/Aug/2024 21:36:57] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:37:01,294:INFO:127.0.0.1 - - [31/Aug/2024 21:37:01] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:37:10,174:INFO:127.0.0.1 - - [31/Aug/2024 21:37:10] "[35m[1mGET /find_job HTTP/1.1[0m" 500 -:
+2024-08-31 21:37:10,288:INFO:127.0.0.1 - - [31/Aug/2024 21:37:10] "GET /find_job?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -:
+2024-08-31 21:37:10,295:INFO:127.0.0.1 - - [31/Aug/2024 21:37:10] "GET /find_job?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -:
+2024-08-31 21:37:10,304:INFO:127.0.0.1 - - [31/Aug/2024 21:37:10] "GET /find_job?__debugger__=yes&cmd=resource&f=console.png&s=z2NHcarBkTxaqEn0BTZx HTTP/1.1" 200 -:
+2024-08-31 21:37:10,345:INFO:127.0.0.1 - - [31/Aug/2024 21:37:10] "GET /find_job?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -:
+2024-08-31 21:45:14,624:INFO:127.0.0.1 - - [31/Aug/2024 21:45:14] "[35m[1mGET /find_job HTTP/1.1[0m" 500 -:
+2024-08-31 21:45:14,732:INFO:127.0.0.1 - - [31/Aug/2024 21:45:14] "[36mGET /find_job?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -:
+2024-08-31 21:45:14,734:INFO:127.0.0.1 - - [31/Aug/2024 21:45:14] "[36mGET /find_job?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -:
+2024-08-31 21:45:14,800:INFO:127.0.0.1 - - [31/Aug/2024 21:45:14] "GET /find_job?__debugger__=yes&cmd=resource&f=console.png&s=EcqCmlVLN9iZAJuAznmF HTTP/1.1" 200 -:
+2024-08-31 21:46:21,450:INFO:127.0.0.1 - - [31/Aug/2024 21:46:21] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:46:22,752:INFO:127.0.0.1 - - [31/Aug/2024 21:46:22] "[35m[1mGET /find_job HTTP/1.1[0m" 500 -:
+2024-08-31 21:46:22,850:INFO:127.0.0.1 - - [31/Aug/2024 21:46:22] "[36mGET /find_job?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -:
+2024-08-31 21:46:22,861:INFO:127.0.0.1 - - [31/Aug/2024 21:46:22] "[36mGET /find_job?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -:
+2024-08-31 21:46:22,933:INFO:127.0.0.1 - - [31/Aug/2024 21:46:22] "GET /find_job?__debugger__=yes&cmd=resource&f=console.png&s=2qnYXXZHXCp3OFVnjk9q HTTP/1.1" 200 -:
+2024-08-31 21:46:24,894:INFO:127.0.0.1 - - [31/Aug/2024 21:46:24] "GET /professionals HTTP/1.1" 200 -:
+2024-08-31 21:46:26,985:INFO:127.0.0.1 - - [31/Aug/2024 21:46:26] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 21:46:28,993:INFO:127.0.0.1 - - [31/Aug/2024 21:46:28] "GET / HTTP/1.1" 200 -:
+2024-08-31 21:46:30,670:INFO:127.0.0.1 - - [31/Aug/2024 21:46:30] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:46:37,411:INFO:127.0.0.1 - - [31/Aug/2024 21:46:37] "[35m[1mGET /find_job HTTP/1.1[0m" 500 -:
+2024-08-31 21:46:37,440:INFO:127.0.0.1 - - [31/Aug/2024 21:46:37] "[36mGET /find_job?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -:
+2024-08-31 21:46:37,448:INFO:127.0.0.1 - - [31/Aug/2024 21:46:37] "[36mGET /find_job?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -:
+2024-08-31 21:46:37,458:INFO:127.0.0.1 - - [31/Aug/2024 21:46:37] "[36mGET /find_job?__debugger__=yes&cmd=resource&f=console.png&s=2qnYXXZHXCp3OFVnjk9q HTTP/1.1[0m" 304 -:
+2024-08-31 21:47:34,457:INFO:127.0.0.1 - - [31/Aug/2024 21:47:34] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:47:38,453:INFO:127.0.0.1 - - [31/Aug/2024 21:47:38] "GET /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:48:42,712:INFO:127.0.0.1 - - [31/Aug/2024 21:48:42] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:48:52,436:ERROR:Professional: None55 not found.:
+2024-08-31 21:48:52,437:INFO:127.0.0.1 - - [31/Aug/2024 21:48:52] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:48:56,078:INFO:127.0.0.1 - - [31/Aug/2024 21:48:56] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:48:58,790:ERROR:Professional: aaa not found.:
+2024-08-31 21:48:58,791:INFO:127.0.0.1 - - [31/Aug/2024 21:48:58] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:49:31,095:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\jobs.py', reloading:
+2024-08-31 21:49:31,683:INFO:127.0.0.1 - - [31/Aug/2024 21:49:31] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:49:35,620:ERROR:Professional: aaa not found.:
+2024-08-31 21:49:35,627:INFO:127.0.0.1 - - [31/Aug/2024 21:49:35] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:49:37,673:ERROR:Professional: ascasd not found.:
+2024-08-31 21:49:37,674:INFO:127.0.0.1 - - [31/Aug/2024 21:49:37] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:50:38,825:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\jobs.py', reloading:
+2024-08-31 21:50:39,504:INFO:127.0.0.1 - - [31/Aug/2024 21:50:39] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:50:42,920:ERROR:Professional: aaa not found.:
+2024-08-31 21:50:42,925:INFO:127.0.0.1 - - [31/Aug/2024 21:50:42] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:51:02,855:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\jobs.py', reloading:
+2024-08-31 21:51:06,156:INFO:127.0.0.1 - - [31/Aug/2024 21:51:06] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:51:09,532:ERROR:Professional: aaa not found.:
+2024-08-31 21:51:09,541:INFO:127.0.0.1 - - [31/Aug/2024 21:51:09] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:51:40,911:INFO: * Detected change in 'C:\\Users\\Admin\\Desktop\\majd\\Python_& _Automation\\personal_projects\\oop_projects\\hurfiesh_jobs\\src\\classes\\jobs.py', reloading:
+2024-08-31 21:51:41,645:INFO:127.0.0.1 - - [31/Aug/2024 21:51:41] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:51:44,211:ERROR:Professional: aaa not found.:
+2024-08-31 21:51:44,217:INFO:127.0.0.1 - - [31/Aug/2024 21:51:44] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:52:10,837:INFO:127.0.0.1 - - [31/Aug/2024 21:52:10] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:52:13,287:ERROR:Professional: aaa not found.:
+2024-08-31 21:52:13,292:INFO:127.0.0.1 - - [31/Aug/2024 21:52:13] "POST /find_professional HTTP/1.1" 200 -:
+2024-08-31 21:53:02,559:INFO:127.0.0.1 - - [31/Aug/2024 21:53:02] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:53:05,364:INFO:127.0.0.1 - - [31/Aug/2024 21:53:05] "POST /find_job HTTP/1.1" 200 -:
+2024-08-31 21:53:11,224:ERROR:Job: asdsad not found.:
+2024-08-31 21:53:11,226:INFO:127.0.0.1 - - [31/Aug/2024 21:53:11] "POST /find_job HTTP/1.1" 200 -:
+2024-08-31 21:54:15,836:INFO:127.0.0.1 - - [31/Aug/2024 21:54:15] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 21:54:17,751:INFO:127.0.0.1 - - [31/Aug/2024 21:54:17] "POST /find_job HTTP/1.1" 200 -:
+2024-08-31 22:02:08,089:INFO:127.0.0.1 - - [31/Aug/2024 22:02:08] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 22:02:08,664:INFO:127.0.0.1 - - [31/Aug/2024 22:02:08] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 22:03:42,865:INFO:127.0.0.1 - - [31/Aug/2024 22:03:42] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 22:04:54,512:INFO:127.0.0.1 - - [31/Aug/2024 22:04:54] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 22:07:05,806:INFO:127.0.0.1 - - [31/Aug/2024 22:07:05] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 22:07:09,219:INFO:127.0.0.1 - - [31/Aug/2024 22:07:09] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 22:07:12,511:INFO:127.0.0.1 - - [31/Aug/2024 22:07:12] "GET /find_job HTTP/1.1" 200 -:
+2024-08-31 22:07:14,542:INFO:127.0.0.1 - - [31/Aug/2024 22:07:14] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 22:07:41,025:INFO:127.0.0.1 - - [31/Aug/2024 22:07:41] "GET /jobs HTTP/1.1" 200 -:
+2024-08-31 22:08:34,719:INFO:127.0.0.1 - - [31/Aug/2024 22:08:34] "GET /jobs HTTP/1.1" 200 -:
+2024-09-14 17:09:55,455:INFO:127.0.0.1 - - [14/Sep/2024 17:09:55] "GET /find_job HTTP/1.1" 200 -:
+2024-09-14 17:09:58,205:INFO:127.0.0.1 - - [14/Sep/2024 17:09:58] "GET /find_professional HTTP/1.1" 200 -:
+2024-09-14 17:10:02,393:INFO:127.0.0.1 - - [14/Sep/2024 17:10:02] "POST /find_professional HTTP/1.1" 200 -:
+2024-09-14 17:10:05,942:INFO:127.0.0.1 - - [14/Sep/2024 17:10:05] "GET / HTTP/1.1" 200 -:
+2024-09-14 17:10:06,682:INFO:127.0.0.1 - - [14/Sep/2024 17:10:06] "GET /jobs HTTP/1.1" 200 -:
+2024-10-01 09:07:09,089:INFO:127.0.0.1 - - [01/Oct/2024 09:07:09] "GET /find_professional HTTP/1.1" 200 -:
+2024-10-01 09:07:10,044:INFO:127.0.0.1 - - [01/Oct/2024 09:07:10] "GET /find_job HTTP/1.1" 200 -:
+2024-10-01 09:07:11,145:INFO:127.0.0.1 - - [01/Oct/2024 09:07:11] "GET /professionals HTTP/1.1" 200 -:
+2024-10-01 09:07:13,686:INFO:127.0.0.1 - - [01/Oct/2024 09:07:13] "GET /jobs HTTP/1.1" 200 -:
+2024-10-01 09:07:15,570:INFO:127.0.0.1 - - [01/Oct/2024 09:07:15] "GET / HTTP/1.1" 200 -:
+2024-10-01 09:07:43,453:INFO:127.0.0.1 - - [01/Oct/2024 09:07:43] "GET /find_professional HTTP/1.1" 200 -:
+2024-10-01 09:07:50,597:ERROR:Professional: None not found.:
+2024-10-01 09:07:50,597:INFO:127.0.0.1 - - [01/Oct/2024 09:07:50] "POST /find_professional HTTP/1.1" 200 -:
+2024-10-01 09:08:11,437:INFO:127.0.0.1 - - [01/Oct/2024 09:08:11] "POST /find_professional HTTP/1.1" 200 -:

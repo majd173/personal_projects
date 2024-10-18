@@ -12,10 +12,23 @@ def create_a_team(teams):
             print("Please insert a correct name.")
 
 
+def delete_a_team(teams):
+    while True:
+        team_name = input("Enter name of the team: ").lower()
+        if team_name:
+            for team in teams:
+                if team_name == team:
+                    teams.remove(team)
+                    print("Your team has been deleted successfully.")
+        print("Team does not exist.")
+        break
+
+
 def football():
     teams = []
     while True:
-        option = input("Hello! Please choose an option:\n1. Add a team\n2. Show teams\n3. Exit\n")
+        option = input("Hello! Please choose an option:\n1. Add a team\n"
+                       "2. Show teams\n3. Delete a team\n4. Exit\n")
         if option == "1":
             create_a_team(teams)
         elif option == "2":
@@ -24,6 +37,8 @@ def football():
             else:
                 print("No teams created yet.")
         elif option == "3":
+            delete_a_team(teams)
+        elif option == "4":
             print("Goodbye!")
             break
         else:

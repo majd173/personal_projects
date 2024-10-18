@@ -38,6 +38,13 @@
     "ddd",
     "fff"
    ]
+  },
+  {
+   "name": "positive",
+   "phone": 527221870,
+   "services": [
+    "plumbing"
+   ]
   }
  ]
 }

@@ -141,3 +141,35 @@ class Job:
         for job in config['jobs']:
             jobs_title.append(job['title'])
         return jobs_title
+
+    @staticmethod
+    def find_job(name):
+        try:
+            base_dir = os.path.dirname(os.path.abspath(__file__))
+            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config = ConfigProvider().load_from_file(config_file_path)
+            with open(config_file_path, 'r') as file:
+                data = json.load(file)
+
+        except FileNotFoundError:
+            logging.error(f"File {config} not found.")
+            # If the file doesn't exist, initialize it with an empty structure.
+            data = {'jobs': [],
+                    'professionals': []}
+
+        except json.JSONDecodeError:
+            logging.error(f"Error in reading file {config}.")
+            # If there's an error in reading the file, also initialize it.
+            data = {'jobs': [],
+                    'professionals': []}
+
+        for job in data['jobs']:
+            if job['title'] == name:
+                if job['professional'] is None:
+                    print(f"Job title: {job['title']}")
+                    return f"Job title: {job['title']}"
+                else:
+                    print(f"Job title: {job['title']} includes professional: {job['professional']['name']}")
+                    return f"Job title: {job['title']}\nincludes professional:\n{job['professional']['name']}"
+            logging.error(f"Job: {name} not found.")
+            return None  # Return None or an appropriate message if not found
