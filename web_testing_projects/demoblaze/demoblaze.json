@@ -1,4 +1,7 @@
 {
-  "api_base_url": "https://www.demoblaze.com/",
-  "browser" : "FireFox"
+  "base_url": "https://www.demoblaze.com/",
+  "browser" : "FireFox",
+
+  "username": "majd",
+  "password": "123"
 }

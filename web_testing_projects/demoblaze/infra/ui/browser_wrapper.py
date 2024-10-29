@@ -1,7 +1,7 @@
 import logging
 import os
 from selenium import webdriver
-from orange_hrm.infra.config_provider import ConfigProvider
+from web_testing_projects.demoblaze.infra.config_provider import ConfigProvider
 
 
 class BrowserWrapper:
@@ -12,7 +12,7 @@ class BrowserWrapper:
     def __init__(self):
         self._driver = None  # because I still don't know which driver to choose.
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        self._config_file_path = os.path.join(base_dir, '../../orange_hrm.json')
+        self._config_file_path = os.path.join(base_dir, '../../demoblaze.json')
         self.config = ConfigProvider.load_from_file(self._config_file_path)
 
     def get_driver(self):
@@ -20,7 +20,7 @@ class BrowserWrapper:
         This method determines which browser to open and also opens it.
         :return: self._driver
         """
-        url = self.config.get("login_url")
+        url = self.config.get("base_url")
         if not url:
             raise ValueError("URL not found in the configuration.")
         if self.config["browser"] == "Chrome":

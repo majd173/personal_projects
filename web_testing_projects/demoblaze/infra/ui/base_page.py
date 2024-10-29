@@ -1,4 +1,4 @@
-from orange_hrm.infra.logger_setup import LoggingSetup
+from web_testing_projects.demoblaze.infra.logger_setup import LoggingSetup
 
 
 class BasePage:
