@@ -1,5 +1,5 @@
 from functools import reduce
-
+# Lambda Functions
 multiply_function = lambda x, y: x * y
 print(multiply_function(5, 6))
 
