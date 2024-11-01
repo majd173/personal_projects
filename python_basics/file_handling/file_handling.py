@@ -1,3 +1,4 @@
+# file handling
 def open_write_file(text):
     try:
         with open('file.txt', 'w') as file:
