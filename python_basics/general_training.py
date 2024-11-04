@@ -1,4 +1,5 @@
 # This page includes python functions need to be improved.
+import json
 
 
 # Example No: 1
@@ -100,3 +101,25 @@ def count_vowels_improved(text):
 
 
 count_vowels_improved("hello")
+
+
+# -------------------------------------------------------------------------------
+def data_type_dic(value):
+    """
+    This function prints the data-type of a value and its properties in a text file.
+    :param value:
+    """
+    info = {
+        "Data Type": str(type(value)),
+        "Is_numeric": isinstance(value, (int, float)),
+        "Is_sequence": isinstance(value, (str, list, tuple, dict, set)),
+        "Length": len(value) if isinstance(value, (str, list, tuple, dict, set)) else None
+    }
+    with open("info.txt", 'w') as file:
+        json.dump(info, file, indent=4)
+
+    with open("info.txt", 'r') as file:
+        print(file.read())
+
+
+data_type_dic("Hello World")
