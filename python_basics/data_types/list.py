@@ -51,3 +51,7 @@ def second_largest_improved(list_1):
 
 
 second_largest_improved(list)
+
+list_1 = [1, 2, 3]
+list_2 = [4, 5, 6]
+print(list_1 * 3)

@@ -1,5 +1,6 @@
 # This page includes python functions need to be improved.
 import json
+import random
 
 
 # Example No: 1
@@ -396,3 +397,35 @@ def is_anagram(word1, word2):
 
 
 is_anagram("hello", "llohe")
+
+
+# -------------------------------------------------------------------------------
+
+
+# Example No: 18
+
+
+def guss_the_number():
+    """
+    This function guss the number between 1 and 5.
+    """
+    guesses = 0
+    while True:
+        try:
+            number = input("Enter a number between 1 and 5:\n")
+            guesses += 1
+            number = int(number)
+            if number > 5 or number < 1:
+                print("Please enter a number between 1 and 5")
+                continue
+            random_number = random.randint(1, 5)
+            if number == random_number:
+                print(f' Yes you got it! you needed {guesses} guesses to guess the number')
+                break
+            else:
+                print("Wrong, try again")
+        except ValueError:
+            print("Please enter only a number ")
+
+
+guss_the_number()
