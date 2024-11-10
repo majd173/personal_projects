@@ -35,3 +35,19 @@ def remove_duplicated(list):
 
 
 remove_duplicated([1, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10])
+
+
+# -----------------------------------------------------------------------------
+
+# While loop example
+
+def example(list_1):
+    i = 0
+    while i < 5:
+        for x in list_1:
+            if x == len(list_1):
+                i += 1
+    print(x)
+
+
+example([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
