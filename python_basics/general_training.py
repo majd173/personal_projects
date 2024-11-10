@@ -351,3 +351,48 @@ cypher_text("hello", 3)
 
 # -------------------------------------------------------------------------------
 
+# Example No: 16
+
+def max_without_built_in(numbers):
+    """
+    This function returns the maximum number in a list.
+    :param numbers:
+    :return: maximum number
+    """
+    if len(numbers) > 1:
+        first = numbers[0]
+        for i in numbers:
+            if i > first:
+                first = i
+
+    print(first)
+
+
+max_without_built_in([1, 2, 4, 3, 5])
+
+
+# -------------------------------------------------------------------------------
+
+# Example No: 17
+
+def is_anagram(word1, word2):
+    """
+    This function checks if two words are anagrams.
+    :param word1:
+    :param word2:
+    :return: True if the words are anagrams, False otherwise.
+    """
+    word1_lower = word1.lower()
+    word2_lower = word2.lower()
+    count = 0
+    for i in word1_lower:
+        if i in word2_lower:
+            count += 1
+
+    if count == len(word1_lower):
+        print(True)
+    else:
+        print(False)
+
+
+is_anagram("hello", "llohe")
