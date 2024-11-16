@@ -1,0 +1,85 @@
+[
+    {
+        "id": 10,
+        "category": {
+            "id": 10,
+            "name": "string"
+        },
+        "name": "avidi-name",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 4,
+        "category": {
+            "id": 0,
+            "name": "Lara"
+        },
+        "name": "",
+        "photoUrls": [],
+        "tags": [],
+        "status": "5000"
+    },
+    {
+        "id": 11,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 12,
+            "name": "cats"
+        },
+        "name": "dogs",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 12,
+                "name": "dogs"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2,
+        "category": {
+            "id": 2,
+            "name": "string"
+        },
+        "name": "2 dinosaur",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    }
+]
