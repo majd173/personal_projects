@@ -17,9 +17,9 @@ class ApiHomePage:
         except Exception as e:
             logging.error(e)
         try:
-            base_dir = os.path.dirname(os.path.abspath(__file__))
-            self._config_file_path = os.path.join(base_dir, '../pet_store_data.json')
-            self._config = ConfigProvider().load_from_file(self._config_file_path)
+            # base_dir = os.path.dirname(os.path.abspath(__file__))
+            # self._config_file_path = os.path.join(base_dir, '../pet_store_data.json')
+            self._config = ConfigProvider().load_from_file('../pet_store_data.json')
             self._url = self._config['base_url']
         except ImportError:
             logging.error("Can not open pet_store_json.json file.")

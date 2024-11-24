@@ -11,3 +11,14 @@
 ---------------------------------------:
 2024-11-16 19:06:07,963:INFO:Data loaded successfully - 5 pets
 ---------------------------------------:
+2024-11-24 21:16:42,777:ERROR:File pet_store_data.json not found.:
+2024-11-24 21:16:47,578:ERROR:File pet_store_data.json not found.:
+2024-11-24 21:16:49,704:ERROR:File pet_store_data.json not found.:
+2024-11-24 21:17:35,644:INFO:Sending a get request to get a pet id: 4:
+2024-11-24 21:17:38,391:INFO:Data saved successfully - pet id: 4
+---------------------------------------:
+2024-11-24 21:18:42,926:INFO:Sending a get request to get a pet id: 3:
+2024-11-24 21:18:43,853:INFO:Data saved successfully - pet id: 3
+---------------------------------------:
+2024-11-24 21:18:50,247:INFO:Data loaded successfully - 7 pets
+---------------------------------------:

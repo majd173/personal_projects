@@ -81,5 +81,41 @@
             }
         ],
         "status": "available"
+    },
+    {
+        "id": 4,
+        "category": {
+            "id": 0,
+            "name": "turtle"
+        },
+        "name": "Olle",
+        "photoUrls": [
+            "turtle"
+        ],
+        "tags": [
+            {
+                "id": 12,
+                "name": "Kolin"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 3,
+        "category": {
+            "id": 0,
+            "name": "mouse"
+        },
+        "name": "Fedor",
+        "photoUrls": [
+            "mouse"
+        ],
+        "tags": [
+            {
+                "id": 11,
+                "name": "Janu"
+            }
+        ],
+        "status": "available"
     }
 ]
