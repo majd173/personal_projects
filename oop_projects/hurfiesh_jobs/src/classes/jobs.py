@@ -11,7 +11,7 @@ class Job:
     def __init__(self, title):
         self._title = title
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        self._config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+        self._config_file_path = os.path.join(base_dir, '../../horfiesh.json')
         self._config = ConfigProvider().load_from_file(self._config_file_path)
 
     @property
