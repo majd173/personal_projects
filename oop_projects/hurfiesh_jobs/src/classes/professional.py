@@ -100,7 +100,7 @@ class Professional:
 
         data['professionals'].append(self.to_dict())
         with open(self._config_file_path, 'w') as file:
-            json.dump(data, file)
+            json.dump(data, file, indent=4)
             logging.info(f"Professional: {self._name} was added successfully.")
 
     @staticmethod
@@ -162,7 +162,7 @@ class Professional:
                 break
         if professional_found:
             with open(self._config_file_path, 'w') as file:
-                json.dump(data, file, indent=1)
+                json.dump(data, file, indent=4)
         else:
             logging.error(f"Professional: {name} not found.")
 
@@ -198,7 +198,7 @@ class Professional:
 
         # Step 3: Write the updated data back to the JSON file.
         with open(self._config_file_path, 'w') as file:
-            json.dump(data, file, indent=1)
+            json.dump(data, file, indent=4)
             logging.info(f"Professional: {self._name} was added successfully.")
             return f"Professional: {self._name} was added successfully."
 

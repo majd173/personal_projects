@@ -91,7 +91,7 @@ class Job:
                 break
         if job_found:
             with open(self._config_file_path, 'w') as file:
-                json.dump(data, file)
+                json.dump(data, file, indent=4)
         else:
             logging.error(f"Job: {title} not found.")
 
@@ -122,7 +122,7 @@ class Job:
 
         # Step 3: Write the updated data back to the JSON file.
         with open(self._config_file_path, 'w') as file:
-            json.dump(data, file, indent=1)
+            json.dump(data, file, indent=4)
             if professional is None:
                 logging.info(f"Job: {self._title} was added successfully.")
             else:
