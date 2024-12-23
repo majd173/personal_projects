@@ -110,7 +110,7 @@ class Professional:
         """
         try:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config_file_path = os.path.join(base_dir, '../../horfiesh.json')
             with open(config_file_path, 'r') as file:
                 data = json.load(file)
         except FileNotFoundError:
@@ -210,7 +210,7 @@ class Professional:
         """
         try:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config_file_path = os.path.join(base_dir, '../../horfiesh.json')
             config = ConfigProvider().load_from_file(config_file_path)
             with open(config_file_path, 'r') as file:
                 data = json.load(file)
@@ -250,7 +250,7 @@ class Professional:
     def find_professional(name):
         try:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config_file_path = os.path.join(base_dir, '../../horfiesh.json')
             config = ConfigProvider().load_from_file(config_file_path)
             with open(config_file_path, 'r') as file:
                 data = json.load(file)

@@ -42,7 +42,7 @@ class Job:
     def show_jobs():
         try:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config_file_path = os.path.join(base_dir, '../../horfiesh.json')
             config = ConfigProvider().load_from_file(config_file_path)
 
             with open(config_file_path, 'r') as file:
@@ -135,7 +135,7 @@ class Job:
         :return: jobs_title: list
         """
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+        config_file_path = os.path.join(base_dir, '../../horfiesh.json')
         config = ConfigProvider().load_from_file(config_file_path)
         jobs_title = []
         for job in config['jobs']:
@@ -146,7 +146,7 @@ class Job:
     def find_job(name):
         try:
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            config_file_path = os.path.join(base_dir, '..\..\horfiesh.json')
+            config_file_path = os.path.join(base_dir, '../../horfiesh.json')
             config = ConfigProvider().load_from_file(config_file_path)
             with open(config_file_path, 'r') as file:
                 data = json.load(file)
