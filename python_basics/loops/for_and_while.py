@@ -41,14 +41,29 @@
 
 # While loop example
 
-def example(list_1):
-    i = 0
-    while i < 5:
-        for x in list_1:
-            if x == len(list_1):
-                i += 1
-    print(x)
+# def example(list_1):
+#     i = 0
+#     while i < 5:
+#         for x in list_1:
+#             if x == len(list_1):
+#                 i += 1
+#     print(x)
 
 
-example([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+# example([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+# -----------------------------------------------------------------------------
+
+def while_example(a, b):
+    x = 0
+    while x < 5:
+        a = a + 1
+        b = b + 1
+        x += 1
+        print (f'{a},{b}')
+
+while_example(1, 2)
+
+    
+
 

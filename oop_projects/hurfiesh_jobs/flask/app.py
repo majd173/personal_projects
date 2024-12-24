@@ -16,7 +16,8 @@ def jobs():
 
 @app.route('/professionals')  # Professionals page
 def professionals():
-    return render_template('professionals.html')
+    from oop_projects.hurfiesh_jobs.src.classes.professional import Professional
+    return render_template('professionals.html', professionals=Professional.show_professionals())
 
 
 @app.route('/find_job', methods=['GET', 'POST'])
