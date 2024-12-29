@@ -1,6 +1,6 @@
 import unittest
-from oop_projects.hurfiesh_jobs.src.classes.jobs import Job
-from oop_projects.hurfiesh_jobs.src.utilities.utilities import Utilities
+from hurfiesh_jobs.src.classes.jobs import Job
+from hurfiesh_jobs.src.utilities.utilities import Utilities
 
 
 class TestRemoveJob(unittest.TestCase):

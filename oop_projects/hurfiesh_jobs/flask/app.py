@@ -10,19 +10,19 @@ def home():
 
 @app.route('/jobs')  # Jobs page
 def jobs():
-    from oop_projects.hurfiesh_jobs.src.classes.jobs import Job
+    from hurfiesh_jobs.src.classes.jobs import Job
     return render_template('jobs.html', jobs=Job.show_jobs())
 
 
 @app.route('/professionals')  # Professionals page
 def professionals():
-    from oop_projects.hurfiesh_jobs.src.classes.professional import Professional
+    from hurfiesh_jobs.src.classes.professional import Professional
     return render_template('professionals.html', professionals=Professional.show_professionals())
 
 
 @app.route('/find_job', methods=['GET', 'POST'])
 def find_job():
-    from oop_projects.hurfiesh_jobs.src.classes.jobs import Job
+    from hurfiesh_jobs.src.classes.jobs import Job
     name = None
     result = None
     if request.method == 'POST':
@@ -36,7 +36,7 @@ def find_job():
 
 @app.route('/find_professional', methods=['GET', 'POST'])
 def find_professional():
-    from oop_projects.hurfiesh_jobs.src.classes.professional import Professional
+    from hurfiesh_jobs.src.classes.professional import Professional
     name = None
     result = None
     if request.method == 'POST':
@@ -50,4 +50,4 @@ def find_professional():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5000, host='0.0.0.0')

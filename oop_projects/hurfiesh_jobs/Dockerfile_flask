@@ -1,0 +1,14 @@
+FROM python:3.12
+
+RUN pip install flask
+
+WORKDIR /app
+
+ADD . /app
+
+COPY . .
+
+EXPOSE 5000
+
+CMD [ "python", "flask/app.py" ]
+

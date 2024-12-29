@@ -1,7 +1,7 @@
 import unittest
-from oop_projects.hurfiesh_jobs.src.utilities.utilities import Utilities
-from oop_projects.hurfiesh_jobs.src.classes.professional import Professional
-from oop_projects.hurfiesh_jobs.src.classes.jobs import Job
+from hurfiesh_jobs.src.utilities.utilities import Utilities
+from hurfiesh_jobs.src.classes.professional import Professional
+from hurfiesh_jobs.src.classes.jobs import Job
 
 
 class TestAddJob(unittest.TestCase):

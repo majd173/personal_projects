@@ -1,5 +1,5 @@
 import unittest
-from oop_projects.hurfiesh_jobs.src.classes.professional import Professional
+from hurfiesh_jobs.src.classes.professional import Professional
 
 
 class TestAddProfessional(unittest.TestCase):
