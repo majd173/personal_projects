@@ -1,12 +1,12 @@
 FROM python:3.12
 
+WORKDIR /app
+# Copy requirements.txt first (this helps with caching during builds)
+COPY . /app/
+# Install dependencies
 RUN pip install flask
 
-WORKDIR /app
-
-ADD . /app
-
-COPY . .
+COPY . /app
 
 EXPOSE 5000
 

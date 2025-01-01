@@ -1,4 +1,9 @@
 from flask import Flask, render_template, request
+import sys
+import os
+
+# Add the project root directory to the Python path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
 app = Flask(__name__)
 
@@ -10,19 +15,19 @@ def home():
 
 @app.route('/jobs')  # Jobs page
 def jobs():
-    from hurfiesh_jobs.src.classes.jobs import Job
+    from src.classes.jobs import Job
     return render_template('jobs.html', jobs=Job.show_jobs())
 
 
 @app.route('/professionals')  # Professionals page
 def professionals():
-    from hurfiesh_jobs.src.classes.professional import Professional
+    from src.classes.professional import Professional
     return render_template('professionals.html', professionals=Professional.show_professionals())
 
 
 @app.route('/find_job', methods=['GET', 'POST'])
 def find_job():
-    from hurfiesh_jobs.src.classes.jobs import Job
+    from src.classes.jobs import Job
     name = None
     result = None
     if request.method == 'POST':
@@ -36,7 +41,7 @@ def find_job():
 
 @app.route('/find_professional', methods=['GET', 'POST'])
 def find_professional():
-    from hurfiesh_jobs.src.classes.professional import Professional
+    from src.classes.professional import Professional
     name = None
     result = None
     if request.method == 'POST':

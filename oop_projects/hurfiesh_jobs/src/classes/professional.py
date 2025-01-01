@@ -1,8 +1,8 @@
 import json
 import os
 import logging
-from hurfiesh_jobs.src.utilities.utilities import Utilities
-from hurfiesh_jobs.src.utilities.config_provider import ConfigProvider
+from src.utilities.utilities import Utilities
+from src.utilities.config_provider import ConfigProvider
 
 
 class Professional:
