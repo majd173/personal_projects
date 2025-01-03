@@ -66,6 +66,7 @@
 
 
 # -----------------------------------------------------------------------------
+# This function removes duplicate numbers from a list and sorts the list.
 
 def remove_duplicates_example(lst):
     for i in lst:
