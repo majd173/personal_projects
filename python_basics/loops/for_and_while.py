@@ -54,15 +54,31 @@
 
 # -----------------------------------------------------------------------------
 
-def while_example(a, b):
-    x = 0
-    while x < 5:
-        a = a + 1
-        b = b + 1
-        x += 1
-        print (f'{a},{b}')
+# def while_example(a, b):
+#     x = 0
+#     while x < 5:
+#         a = a + 1
+#         b = b + 1
+#         x += 1
+#         print (f'{a},{b}')
 
-while_example(1, 2)
+# while_example(1, 2)
+
+
+# -----------------------------------------------------------------------------
+
+def remove_duplicates_example(lst):
+    for i in lst:
+        if lst.count(i) > 1:
+            lst.remove(i)
+    return sorted(lst)
+
+print(remove_duplicates_example([1,2,2,55,55,3,3,3,44,5,6,44]))
+
+# -----------------------------------------------------------------------------
+
+
+
 
     
 
