@@ -74,13 +74,7 @@ def remove_duplicates_example(lst):
             lst.remove(i)
     return sorted(lst)
 
-print(remove_duplicates_example([1,2,2,55,55,3,3,3,44,5,6,44]))
+
+print(remove_duplicates_example([1, 2, 2, 55, 55, 3, 3, 3, 44, 5, 6, 44]))
 
 # -----------------------------------------------------------------------------
-
-
-
-
-    
-
-
