@@ -1,0 +1,14 @@
+FROM python:3.12
+
+WORKDIR /app
+# Copy requirements.txt first (this helps with caching during builds)
+COPY . /app/
+# Install dependencies
+RUN pip install flask
+
+COPY . /app
+
+EXPOSE 5000
+
+CMD [ "python", "flask/app.py" ]
+
