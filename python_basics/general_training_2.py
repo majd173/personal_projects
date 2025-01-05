@@ -129,3 +129,31 @@ print(check_all_positive([2, 4, 6, 8, 10]))
 
 
 # -------------------------------------------------------------------------------
+
+# Example No: 9
+
+def example(string):
+    list = []
+    for i in string:
+        if i.isalpha() == True or i.isspace() == True:
+            continue
+        else:
+            list.append(i)
+
+    return len(list)
+
+
+print(example("hello11 world"))
+
+
+# -------------------------------------------------------------------------------
+
+
+# Example No: 10
+
+def list_example(list):
+    new_list = [i + x for i, x in enumerate(list)]
+    return new_list
+
+
+print(list_example([1, 2, 3, 4, 5]))
