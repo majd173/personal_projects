@@ -157,3 +157,48 @@ def list_example(list):
 
 
 print(list_example([1, 2, 3, 4, 5]))
+
+
+# -------------------------------------------------------------------------------
+
+
+def list_example_2(list):
+    for index, value in enumerate(list):
+        print(f'"Index:" {value}, "Value:" {index}')
+
+
+print(list_example_2([1, 2, 3, 4, 5]))
+
+
+# -------------------------------------------------------------------------------
+
+# Example No: 11
+
+def set_example(list):
+    my_set = set(list)
+    my_set.add(6)
+    my_set.pop()
+    print(max(my_set))
+    print(sorted(my_set))
+    print(my_set.symmetric_difference({7, 8, 9}))
+    print(my_set.union({7, 8, 9}))
+    print(my_set.intersection({7, 8, 9}))
+    print(my_set.difference({7, 8, 9}))
+
+set_example([1, 2, 3, 4, 5, 8, 6, 7])
+
+
+# -------------------------------------------------------------------------------
+
+
+# Example No: 12
+
+def tuple_example(list):
+    my_tuple = tuple(list)
+    print(max(my_tuple))
+    print(my_tuple)
+    print(sorted(my_tuple))
+
+
+
+tuple_example([1, 2, 3, 4, 5, 9, 7])
